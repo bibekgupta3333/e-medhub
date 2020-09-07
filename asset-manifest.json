@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/bibekgupta3333/e-medhub/static/js/main.63cd8755.chunk.js",
-    "main.js.map": "/bibekgupta3333/e-medhub/static/js/main.63cd8755.chunk.js.map",
-    "runtime-main.js": "/bibekgupta3333/e-medhub/static/js/runtime-main.06048508.js",
-    "runtime-main.js.map": "/bibekgupta3333/e-medhub/static/js/runtime-main.06048508.js.map",
-    "static/css/2.11829350.chunk.css": "/bibekgupta3333/e-medhub/static/css/2.11829350.chunk.css",
-    "static/js/2.241b7992.chunk.js": "/bibekgupta3333/e-medhub/static/js/2.241b7992.chunk.js",
-    "static/js/2.241b7992.chunk.js.map": "/bibekgupta3333/e-medhub/static/js/2.241b7992.chunk.js.map",
-    "index.html": "/bibekgupta3333/e-medhub/index.html",
-    "precache-manifest.ff89a03ff5d45d8a9588deba8a8ab223.js": "/bibekgupta3333/e-medhub/precache-manifest.ff89a03ff5d45d8a9588deba8a8ab223.js",
-    "service-worker.js": "/bibekgupta3333/e-medhub/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/bibekgupta3333/e-medhub/static/css/2.11829350.chunk.css.map",
-    "static/js/2.241b7992.chunk.js.LICENSE.txt": "/bibekgupta3333/e-medhub/static/js/2.241b7992.chunk.js.LICENSE.txt"
+    "main.js": "/e-medhub/static/js/main.b4e8cd35.chunk.js",
+    "main.js.map": "/e-medhub/static/js/main.b4e8cd35.chunk.js.map",
+    "runtime-main.js": "/e-medhub/static/js/runtime-main.345fdf17.js",
+    "runtime-main.js.map": "/e-medhub/static/js/runtime-main.345fdf17.js.map",
+    "static/css/2.11829350.chunk.css": "/e-medhub/static/css/2.11829350.chunk.css",
+    "static/js/2.241b7992.chunk.js": "/e-medhub/static/js/2.241b7992.chunk.js",
+    "static/js/2.241b7992.chunk.js.map": "/e-medhub/static/js/2.241b7992.chunk.js.map",
+    "index.html": "/e-medhub/index.html",
+    "precache-manifest.df6338c3db3973a7cd9d4f1db110cf72.js": "/e-medhub/precache-manifest.df6338c3db3973a7cd9d4f1db110cf72.js",
+    "service-worker.js": "/e-medhub/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/e-medhub/static/css/2.11829350.chunk.css.map",
+    "static/js/2.241b7992.chunk.js.LICENSE.txt": "/e-medhub/static/js/2.241b7992.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.06048508.js",
+    "static/js/runtime-main.345fdf17.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.241b7992.chunk.js",
-    "static/js/main.63cd8755.chunk.js"
+    "static/js/main.b4e8cd35.chunk.js"
   ]
 }
