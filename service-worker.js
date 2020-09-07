@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/e-medhub/precache-manifest.2b1f476e90058462d28c25f43512e9cc.js"
+  "/e-medhub/precache-manifest.6b2178a22c6e87a6ecd5ebfecc396ec8.js"
 );
 
 self.addEventListener('message', (event) => {
