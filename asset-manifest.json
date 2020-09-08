@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/e-medhub/static/js/main.2ad8d491.chunk.js",
-    "main.js.map": "/e-medhub/static/js/main.2ad8d491.chunk.js.map",
+    "main.js": "/e-medhub/static/js/main.380623cf.chunk.js",
+    "main.js.map": "/e-medhub/static/js/main.380623cf.chunk.js.map",
     "runtime-main.js": "/e-medhub/static/js/runtime-main.345fdf17.js",
     "runtime-main.js.map": "/e-medhub/static/js/runtime-main.345fdf17.js.map",
     "static/css/2.11829350.chunk.css": "/e-medhub/static/css/2.11829350.chunk.css",
     "static/js/2.241b7992.chunk.js": "/e-medhub/static/js/2.241b7992.chunk.js",
     "static/js/2.241b7992.chunk.js.map": "/e-medhub/static/js/2.241b7992.chunk.js.map",
     "index.html": "/e-medhub/index.html",
-    "precache-manifest.7f0e743b10c79c1f17b0301b43604f66.js": "/e-medhub/precache-manifest.7f0e743b10c79c1f17b0301b43604f66.js",
+    "precache-manifest.829f9d191e24a5647a9c7a8b5c86ceb3.js": "/e-medhub/precache-manifest.829f9d191e24a5647a9c7a8b5c86ceb3.js",
     "service-worker.js": "/e-medhub/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/e-medhub/static/css/2.11829350.chunk.css.map",
     "static/js/2.241b7992.chunk.js.LICENSE.txt": "/e-medhub/static/js/2.241b7992.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.345fdf17.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.241b7992.chunk.js",
-    "static/js/main.2ad8d491.chunk.js"
+    "static/js/main.380623cf.chunk.js"
   ]
 }
