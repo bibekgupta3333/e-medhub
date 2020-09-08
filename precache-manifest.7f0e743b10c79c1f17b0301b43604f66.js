@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b18f91e5d2905f6e997fb54c4447c2ae",
+    "revision": "cefb1d1130ef0a0d93d632fd34fab1f9",
     "url": "/e-medhub/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/e-medhub/static/js/2.241b7992.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83f3a7f321f3f9764746",
-    "url": "/e-medhub/static/js/main.d296850b.chunk.js"
+    "revision": "4d57204c3c618e9a653e",
+    "url": "/e-medhub/static/js/main.2ad8d491.chunk.js"
   },
   {
     "revision": "b46bca48ed9d206e208f",
