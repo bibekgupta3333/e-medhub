@@ -1,5 +1,5 @@
 # E-MedHub
-Emedhub is the ecommerce site that consist medicine retailer who sells their medicine related product and the buyers buy the products.
+Emedhub is the ecommerce site that consist medicine sellers who sells their medicine related product and the buyers who buy the products.
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
