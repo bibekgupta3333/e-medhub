@@ -158,6 +158,7 @@ class PreviousCart extends Component {
                       ? 1
                       : Number(localStorage.getItem("pagescheck")) - 1
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Previous
@@ -174,6 +175,7 @@ class PreviousCart extends Component {
                   <Link
                     onClick={this.updatePage.bind(this, num)}
                     className="page-link"
+                    to={""}
                   >
                     {`${num}`}
                   </Link>
@@ -196,6 +198,7 @@ class PreviousCart extends Component {
                       ? Number(localStorage.getItem("pagescheck")) + 1
                       : Math.ceil(Number(this.state.count) / 8)
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Next

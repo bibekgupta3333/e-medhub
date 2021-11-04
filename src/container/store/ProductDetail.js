@@ -103,7 +103,9 @@ class ProductDetail extends Component {
                 </Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
-                <Link className="text-light">Product</Link>
+                <Link className="text-light" to={""}>
+                  Product
+                </Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 <Link className="text-light" to={`/products/${slug}`}>
@@ -193,6 +195,7 @@ class ProductDetail extends Component {
                   ) : (
                     <Link
                       onClick={this.add_to_cart.bind(this, id)}
+                      to={""}
                       className="btn btn-secondary"
                     >
                       Add

@@ -15,15 +15,8 @@ class Card extends Component {
   };
 
   render() {
-    const {
-      id,
-      name,
-      slug,
-      generic_name,
-      price,
-      image,
-      mfg_company,
-    } = this.props;
+    const { id, name, slug, generic_name, price, image, mfg_company } =
+      this.props;
 
     return (
       <div
@@ -68,6 +61,7 @@ class Card extends Component {
             ) : (
               <Link
                 onClick={this.add_to_cart.bind(this, id)}
+                to={""}
                 className="btn btn-sm btn-secondary"
               >
                 Add

@@ -173,6 +173,7 @@ class UserProducts extends Component {
                       ? 1
                       : Number(localStorage.getItem("pageUser")) - 1
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Previous
@@ -188,6 +189,7 @@ class UserProducts extends Component {
                 >
                   <Link
                     onClick={this.updatePage.bind(this, num)}
+                    to={""}
                     className="page-link"
                   >
                     {`${num}`}
@@ -210,6 +212,7 @@ class UserProducts extends Component {
                       ? Number(this.state.count)
                       : Number(localStorage.getItem("pageUser")) + 1
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Next

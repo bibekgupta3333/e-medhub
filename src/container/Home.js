@@ -123,7 +123,13 @@ class Home extends Component {
                 className="breadcrumb-item active  text-dark"
                 aria-current="page"
               >
-                <Link className="text-light" to="/">
+                <Link
+                  onClick={() => {
+                    window.location.reload();
+                  }}
+                  className="text-light"
+                  to="/"
+                >
                   Home
                 </Link>
               </li>
@@ -143,30 +149,41 @@ class Home extends Component {
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
-                    <Link onClick={this.onCategory.bind(this, "Medicine")}>
+                    <Link
+                      onClick={this.onCategory.bind(this, "Medicine")}
+                      to={""}
+                    >
                       Medicine
                     </Link>
                   </li>
                   <li className="list-group-item">
-                    <Link onClick={this.onCategory.bind(this, "Baby Products")}>
+                    <Link
+                      onClick={this.onCategory.bind(this, "Baby Products")}
+                      to={""}
+                    >
                       Baby Products
                     </Link>
                   </li>
                   <li className="list-group-item">
                     <Link
                       onClick={this.onCategory.bind(this, "Beauty Products")}
+                      to={""}
                     >
                       Beauty Products
                     </Link>
                   </li>
                   <li className="list-group-item">
-                    <Link onClick={this.onCategory.bind(this, "Suppliments ")}>
+                    <Link
+                      onClick={this.onCategory.bind(this, "Suppliments ")}
+                      to={""}
+                    >
                       Suppliments{" "}
                     </Link>
                   </li>
                   <li className="list-group-item">
                     <Link
                       onClick={this.onCategory.bind(this, "Medical Equipments")}
+                      to={""}
                     >
                       Medical Equipments
                     </Link>
@@ -205,6 +222,7 @@ class Home extends Component {
                       ? 1
                       : Number(localStorage.getItem("page")) - 1
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Previous
@@ -220,6 +238,7 @@ class Home extends Component {
                 >
                   <Link
                     onClick={this.updatePage.bind(this, num)}
+                    to={""}
                     className="page-link"
                   >
                     {`${num}`}
@@ -243,6 +262,7 @@ class Home extends Component {
                       ? Number(localStorage.getItem("page")) + 1
                       : Math.ceil(Number(this.state.count) / 8)
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Next

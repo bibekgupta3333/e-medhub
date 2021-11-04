@@ -147,7 +147,9 @@ class Cart extends Component {
                 </Link>
               </li>
               <li className="breadcrumb-item active  " aria-current="page">
-                <Link className="text-light ">Cart</Link>
+                <Link className="text-light " to={""}>
+                  Cart
+                </Link>
               </li>
               <li className="breadcrumb-item active  " aria-current="page">
                 <Link className="text-light " to="/cart">
@@ -264,6 +266,7 @@ class Cart extends Component {
                       ? 1
                       : Number(localStorage.getItem("pages")) - 1
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Previous
@@ -279,6 +282,7 @@ class Cart extends Component {
                 >
                   <Link
                     onClick={this.updatePage.bind(this, num)}
+                    to={""}
                     className="page-link"
                   >
                     {`${num}`}
@@ -302,6 +306,7 @@ class Cart extends Component {
                       ? Number(localStorage.getItem("pages")) + 1
                       : Math.ceil(Number(this.state.count) / 8)
                   )}
+                  to={""}
                   className="page-link"
                 >
                   Next
