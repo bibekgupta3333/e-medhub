@@ -55,6 +55,7 @@ class UpdateCart extends Component {
     setTimeout(() => {}, 2000);
     setTimeout(() => {}, 2000);
     this.props.history.push("/cart");
+    window.location.reload();
   };
 
   onChange = (e) => {
@@ -86,7 +87,7 @@ class UpdateCart extends Component {
               Update Quantity of Product
             </div>
             <div className="card-body">
-              <h1>{this.state.product.name}</h1>
+              <h1>{this.state.product?.name}</h1>
 
               <form onSubmit={this.onSubmit}>
                 <TextInputGroup
