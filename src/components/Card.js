@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { create_order_product } from "../actions/order";
 import { connect } from "react-redux";
+import "./style.css";
 class Card extends Component {
   add_to_cart = (id) => {
     const user = Number(localStorage.getItem("id"));
@@ -19,10 +20,7 @@ class Card extends Component {
       this.props;
 
     return (
-      <div
-        className="card d-inline-block bg-white text-center m-2  pt-3 shadow"
-        style={{ width: "180px", height: "300px" }}
-      >
+      <div className="card d-inline-block bg-white text-center m-2  pt-3 shadow card_width_height ">
         <Link to={`/products/${slug}`}>
           <img
             style={{ height: "100px", width: "100px" }}

@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
       <nav
-        className="navbar navbar-expand-sm navbar-primary text-center bg-primary h-25"
+        className="navbar navbar-expand-sm navbar-primary text-center bg-primary h-25 "
         style={{ width: "100%" }}
       >
         <h6 className="navbar-brand text-light text-center mx-auto" href="">
