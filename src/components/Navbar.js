@@ -41,7 +41,7 @@ class Navbar extends Component {
           <a
             className="navbar-brand font-weight-bold"
             style={{ fontSize: "2.5rem" }}
-            href="/e-medhub"
+            href="/"
           >
             <i class=" fas fa-clinic-medical"></i> {branding}
           </a>

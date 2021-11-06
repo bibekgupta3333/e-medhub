@@ -206,7 +206,7 @@ class Home extends Component {
               ))}
             </div>
           </div>
-          <div className="d-flex justify-content-center ">
+          <div className="d-flex justify-content-center mt-4">
             <ul className="pagination">
               <li
                 className={`page-item ${
